@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EDR_Output">
+	<test name = "MyResult">
+		<classes>
+			<class name="com.EDR_Automation.EDR_Login"></class>
+			<class name="com.EDR_Automation.Testing"></class>
+		</classes>
+	</test>
+</suite>

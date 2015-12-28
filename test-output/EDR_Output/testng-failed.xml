@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EDR_Output]">
+  <test name="MyResult(failed)">
+    <classes>
+      <class name="com.EDR_Automation.Testing">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.EDR_Automation.Testing -->
+      <class name="com.EDR_Automation.EDR_Login">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.EDR_Automation.EDR_Login -->
+    </classes>
+  </test> <!-- MyResult(failed) -->
+</suite> <!-- Failed suite [EDR_Output] -->
